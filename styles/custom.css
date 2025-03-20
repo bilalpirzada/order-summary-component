@@ -1,0 +1,29 @@
+:root{
+  /* ### Primary */
+
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+  
+  /* ### Neutral */
+  
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+}
+
+body{
+  background: var(--Paleblue);
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position:center top;
+  background-size: 100% 50%;
+  height: 100vh;
+}
+
+.bg-desktop-img{
+  width: 100%;
+}
+
+body div{
+  position: absolute;
+}
