@@ -21,6 +21,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Red Hat Display", sans-serif;;
 }
 
 .bg-desktop-img{
@@ -30,11 +31,20 @@ body{
 main{
   border-radius: 1rem;
   max-width: 400px;
+  background-color: var(--Verypaleblue);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 main img{
-  border-radius: 10px 10px 0 0;
+  border-radius: 1rem 1rem 0 0;
   margin-bottom: 20px;
 }
 
+main h1{
+  font-size: 1.4rem;
+  font-weight: 900;
+}
 
