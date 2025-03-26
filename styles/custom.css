@@ -18,12 +18,23 @@ body{
   background-position:center top;
   background-size: 100% 50%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg-desktop-img{
   width: 100%;
 }
 
-body div{
-  position: absolute;
+main{
+  border-radius: 1rem;
+  max-width: 400px;
 }
+
+main img{
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 20px;
+}
+
+
