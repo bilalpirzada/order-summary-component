@@ -40,11 +40,72 @@ main{
 
 main img{
   border-radius: 1rem 1rem 0 0;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
+}
+
+.order-summary-container{
+  padding:0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 main h1{
   font-size: 1.4rem;
   font-weight: 900;
+  margin-bottom: 1rem;
 }
+
+main p{
+  color: var(--Desaturatedblue);
+  font-size: .9rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.price-container{
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: hsla(225, 100%, 94%,.4);
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  width: 100%;
+}
+
+.price-container p{
+  margin-bottom: 0;
+}
+
+.price-container img{
+  margin: 0;
+  width: 40px;
+}
+
+.price-container div{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.price-container a{
+  font-weight: 800;
+  font-size: .85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-container a:hover{
+cursor: pointer;
+}
+
+.price-title{
+  font-weight: 800;
+  color: var(--color-black);
+}
+
+
 
