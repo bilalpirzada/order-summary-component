@@ -73,6 +73,7 @@ main p{
   display: grid;
   grid-template-columns: 50px 1fr 50px;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .price-container p{
@@ -105,6 +106,17 @@ cursor: pointer;
 .price-title{
   font-weight: 800;
   color: var(--color-black);
+}
+
+.payment-btn{
+  border: none;
+  padding: .8rem 1rem;
+  border-radius: 1rem;
+  background-color: var(--Brightblue);
+  color: var(--Verypaleblue);
+  width: 100%;
+  font-weight: 800;
+  font-size: .9rem;
 }
 
 
